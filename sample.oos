@@ -1,0 +1,15 @@
+class appFont{
+    color: 'red';
+    background:'blue';
+    border: '1px solid green';
+}
+
+abstract class fontGroup{
+    font-size;
+    font-weight;
+    font-color:'white';
+}
+
+selector '.child-a' extends appfont {}
+
+selector '.child-b' implements fontGroup {}
